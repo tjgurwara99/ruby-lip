@@ -15,6 +15,7 @@ import (
 )
 
 func TestIndex(t *testing.T) {
+	t.Skip()
 	i := New("/Users/taj/github/github")
 	i.Start(log.Default())
 }
