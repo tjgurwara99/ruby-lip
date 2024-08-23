@@ -2,7 +2,6 @@ package index
 
 import (
 	"context"
-	"log"
 	"os"
 	"strings"
 
@@ -13,12 +12,6 @@ import (
 
 	"testing"
 )
-
-func TestIndex(t *testing.T) {
-	t.Skip()
-	i := New("/Users/taj/github/github")
-	i.Start(log.Default())
-}
 
 func TestPrism(t *testing.T) {
 	ctx := context.Background()
